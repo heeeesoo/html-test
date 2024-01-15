@@ -11,11 +11,51 @@
         제목
     </h1>
     <hr>
+    <h2>1. 인용구</h2>
     <blockquote>
         인용구
     </blockquote>
-    <br>
+    <h2>2. 링크</h2>
     <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
     <br>
+    <h2>3. address</h2>
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <h2>4. canvas</h2>
+    <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+    </canvas>
+        
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+    </script>
+
+    <h2>5. label</h2>
+    
+    <form action="/action_page.php">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>6. menu</h2>
+    <menu>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </menu>
 </body>
 </html>
