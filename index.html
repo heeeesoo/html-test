@@ -124,5 +124,30 @@
         </fieldset>
     </form>
     <br/>
+
+    <h2>17. input text</h2>
+    <label for="name">Name (4 to 8 characters):</label>
+
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
+
+    <h2>18. input time</h2>
+    <label for="appt">Choose a time for your meeting:</label>
+
+    <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+
+    <small>Office hours are 9am to 6pm</small>
+
+    <h2>19. input url</h2>
+    <form>
+        <label for="url">Enter an https:// URL:</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
+    </form>
+
+    <h2>20. input email</h2>
+    <label for="email">Enter your example.com email:</label>
+
+    <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+      
+
 </body>
 </html>
