@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'WarhavenB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/WarhavenB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SejonghospitalBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DAEAM_LEE_TAE_JOON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/DAEAM_LEE_TAE_JOON.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    color: #f00;
+}
+
+nav {
+    background-color: blanchedalmond;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: 'SejonghospitalBold';
+}
+
+nav div {
+    color: brown;
+    letter-spacing: 1px;
+}
+
+.space {
+    white-space: pre-line;
+    text-transform: uppercase;
+}
+  
+.item {
+    color: black;
+}
