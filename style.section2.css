@@ -1,0 +1,90 @@
+.section2 {
+    padding-left: 148px;
+    padding-right: 148px;
+
+}
+
+.section2 h1{
+    padding-top: 10px;
+    color: var(--Dark-Color, #21243D);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 272.727% */
+}
+
+.imageBox {
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.section2 article {
+    padding-top: 20px;
+    display: flex;
+}
+
+.textBox {
+    padding-left: 18px;
+}
+
+.mainTextBox {
+    color: var(--Dark-Color, #21243D);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detailTextBox {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.subTextBox {
+    padding-top: 18px;
+    color: var(--Dark-Color, #21243D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.year {
+    margin-right: 26px;
+    border-radius: 16px;
+    background: #142850;
+
+    width: 62px;
+    height: 25px;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 333.333% */
+}
+
+.part {
+    display: flex;
+    align-items: center;
+
+    width: 374px;
+    height: 34px;
+    flex-shrink: 0;
+
+    color: var(--Light, #8695A4);
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
