@@ -1,0 +1,39 @@
+.section3 {
+    height: 609px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .titleSection3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.cardSection3Container {
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    overflow-x: scroll;
+    padding-top: 80px;
+    /* padding-left: 120px; */
+}
+
+.cardSection3 {
+    flex-shrink: 0;
+    width: 460px;
+    height: 264px;
+    background-color: grey;
+    margin-right: 40px;
+
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.paddingSection3 {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+}
