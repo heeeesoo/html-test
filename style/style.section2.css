@@ -88,3 +88,14 @@
     font-weight: 400;
     line-height: normal;
 }
+
+.cardSection2 {
+    height: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(189, 210, 255, 0.40);
+    display: flex;
+    justify-content: space-between;
+    /* background-color: royalblue; */
+    /* color: white; */
+}
