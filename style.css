@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'WarhavenB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/WarhavenB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SejonghospitalBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DAEAM_LEE_TAE_JOON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/DAEAM_LEE_TAE_JOON.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+    padding-top: 27px;
+    gap: 33px;
+
+    /* font */
+    color: #000;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 210px;
+    padding-left: 148px;
+    padding-right: 148px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.textWrapper .mainText {
+    width: 506px;
+    height: 105px;
+    flex-shrink: 0;
+
+    color: var(--Dark-Color, #21243D);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+    white-space: pre-line;
+}
+
+.textWrapper .subText {
+    margin-top: 40px;
+    width: 497px;
+    height: 66px;
+    flex-shrink: 0;
+
+    color: var(--Dark-Color, #21243D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textWrapper button {
+    text-align: center;
+    width: 208px;
+    height: 47px;
+    flex-shrink: 0;
+
+    border-radius: 2px;
+    background: var(--Primary, #FF6464);
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.linkText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 208px;
+    height: 47px;
+    flex-shrink: 0;
+    text-decoration: none;
+
+    border-radius: 2px;
+    background: var(--Primary, #FF6464);
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.linkWrapper {
+    display: flex;
+    gap: 20px;
+}
+button {
+    all: unset;
+}
+
+.imageWrapper {
+    width: 243px;
+    height: 243px;
+    flex-shrink: 0;
+}
+
+.imageItem {
+    border-radius: 243px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
