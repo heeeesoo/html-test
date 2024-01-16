@@ -14,10 +14,12 @@
 .cardSection3Container {
     display: flex;
     width: 100vw;
-    height: 300px;
+    height: 400px;
     overflow-x: scroll;
     padding-top: 80px;
-    /* padding-left: 120px; */
+    padding-left: 120px;
+    padding-right: 80px;
+    box-sizing: border-box;
 }
 
 .cardSection3 {
