@@ -53,7 +53,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 60px;
     padding-left: 148px;
     padding-right: 148px;
 }
@@ -78,7 +78,7 @@ header {
 }
 
 .textWrapper .subHeaderText {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 497px;
     height: 66px;
     flex-shrink: 0;
@@ -97,7 +97,7 @@ header {
     flex-shrink: 0;
 
     border-radius: 2px;
-    background: var(--Primary, #FF6464);
+    background: var(--Primary, royalblue);
 
     color: #FFF;
     font-size: 20px;
@@ -117,7 +117,7 @@ header {
     text-decoration: none;
 
     border-radius: 2px;
-    background: var(--Primary, #FF6464);
+    background: var(--Primary, royalblue);
 
     color: #FFF;
     font-size: 20px;
@@ -151,8 +151,8 @@ button {
 
     border: none;
     border-radius: 16px;
-    background: #BBD5F7;
-    color: rgba(64, 57, 48, 0.80);
+    background: white;
+    color: black;
     padding: 12px;
     font-weight: bold;
     box-shadow: 0px 5px 15px gray;
@@ -162,4 +162,35 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contactText {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: inline-block;
+    font-size: 24px;
+}
+
+.typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+
+    color: var(--Dark-Color, #21243D);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 136.364% */
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }

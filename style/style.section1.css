@@ -5,7 +5,7 @@
     height: 450px;
     flex-shrink: 0;
     /* background: #EDF7FA; */
-    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, royalblue 158.93%);
 }
 
 .mainMainText {
