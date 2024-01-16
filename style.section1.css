@@ -4,7 +4,9 @@
     padding-right: 168px;
     height: 396px;
     flex-shrink: 0;
-    background: #EDF7FA;
+    /* background: #EDF7FA; */
+    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+    position: relative;
 }
 
 .mainMainText {
@@ -14,6 +16,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    white-space: pre-line;
 }
 
 .subMainText {
@@ -24,4 +27,10 @@
     font-weight: 400;
     line-height: normal;
     white-space: pre-line;
+}
+
+.sectionImage {
+    position: absolute;
+    right: 200px;
+    top: 20px;
 }
