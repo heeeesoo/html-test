@@ -2,21 +2,21 @@
     margin-top: 70px;
     padding-left: 168px;
     padding-right: 168px;
-    height: 396px;
+    height: 450px;
     flex-shrink: 0;
     /* background: #EDF7FA; */
     background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
-    position: relative;
 }
 
 .mainMainText {
-    padding-top: 40px;
+    padding-top: 100px;
     color: var(--Dark-Color, #21243D);
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    white-space: pre-line;
+
+    position: relative;
 }
 
 .subMainText {
@@ -31,6 +31,10 @@
 
 .sectionImage {
     position: absolute;
-    right: 200px;
-    top: 20px;
+    left: 470px;
+    top: 40px;
+    /* top: 10px; */
+
+    width: 100px;
+    height: 100px;
 }
