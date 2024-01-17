@@ -27,7 +27,7 @@
 
 .cardSection3 {
     flex-shrink: 0;
-    /* width: 460px; */
+    width: 460px;
     height: 264px;
     background-color: grey;
     margin-right: 40px;
