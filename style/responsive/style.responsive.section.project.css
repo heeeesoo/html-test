@@ -1,3 +1,99 @@
 .sectionProject {
-    display: none;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionPContainer {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionPTitle {
+    color: #403930;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 50px */
+    letter-spacing: -0.8px;    
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.sectionPCard {
+    height: 500px;
+    background-color: rgba(189, 210, 255, 0.40);
+    margin-bottom: 32px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.sectionPText {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionPTextTitle {
+    color: #403930;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */    
+}
+
+.sectionPTextSkill {
+    color: #403930;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */  
+    
+    padding-bottom: 30px;
+}
+
+.sectionPTextSubTitle {
+    color: #403930;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+
+    padding-bottom: 24px;
+    white-space: pre-line;
+}
+
+.sectionPLinkGroup {
+    display: flex;
+    gap: 15px;
+}
+
+.sectionPLink {
+    color: #405BA1;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    text-decoration-line: underline;
+}
+
+
+.sectionPImageGroup {
+    width: 80vw;
+    height: 230px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionPImage {
+    height: 200px;
 }
