@@ -31,6 +31,9 @@
 body {
     /* font-family: 'Pretendard-Regular'; */
     font-family: 'Heebo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav {
@@ -47,6 +50,7 @@ nav {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
 }
 
 header {
@@ -56,6 +60,7 @@ header {
     padding-top: 60px;
     padding-left: 148px;
     padding-right: 148px;
+    box-sizing: border-box;
 }
 
 .textWrapper {
@@ -65,7 +70,7 @@ header {
 }
 
 .textWrapper .mainHeaderText {
-    width: 506px;
+    /* width: 506px; */
     height: 105px;
     flex-shrink: 0;
 
@@ -139,6 +144,8 @@ button {
     flex-shrink: 0;
 }
 
+
+
 .imageItem {
     border-radius: 243px;
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
@@ -163,6 +170,8 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .contactText {
     text-decoration: none;
@@ -194,3 +203,4 @@ button {
     from { width: 0 }
     to { width: 100% }
 }
+

@@ -2,6 +2,8 @@
     height: 609px;
     display: flex;
     flex-direction: column;
+    /* width: 100vw; */
+    /* padding-right: 60px; */
 }
 
 .section3 .titleSection3 {
@@ -9,6 +11,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 80px;
+    
 }
 
 .cardSection3Container {
@@ -18,13 +21,13 @@
     overflow-x: scroll;
     padding-top: 80px;
     padding-left: 120px;
-    padding-right: 80px;
+    /* padding-right: 80px; */
     box-sizing: border-box;
 }
 
 .cardSection3 {
     flex-shrink: 0;
-    width: 460px;
+    /* width: 460px; */
     height: 264px;
     background-color: grey;
     margin-right: 40px;
