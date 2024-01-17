@@ -59,8 +59,8 @@
                 Amet minim mollit non sdeserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
             </div>
             <div class="linkWrapper">
-                <a href="https://google.com" target="_blank" class="linkText">Resume Link</a>
-                <a href="https://google.com" target="_blank" class="linkText">Github Link</a>
+                <a href="https://google.com" onclick="onClickButton('resume')" target="_blank" class="linkText">Resume Link</a>
+                <a href="https://google.com" onclick="onClickButton('github')" target="_blank" class="linkText">Github Link</a>
             </div>
         </div>
         <div class="imageWrapper">
@@ -160,5 +160,21 @@
 
     <br/>
     <br/>
+
+    <script>
+        function onClickButton(type){
+            if(type === 'github'){
+                gtag('event','github_button_click',{
+                    "event_category" : 'github_button_click',
+                    "event_label" : 'github_button_click'
+                })
+            }else if(type === 'resume'){
+                gtag('event','resume_button_click',{
+                    "event_category" : 'resume_button_click',
+                    "event_label" : 'resume_button_click'
+                })
+            }
+        }
+    </script>
 </body>
 </html>
