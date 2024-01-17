@@ -4,19 +4,18 @@
     padding-right: 168px;
     height: 450px;
     flex-shrink: 0;
-    /* background: #EDF7FA; */
     background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, royalblue 158.93%);
 }
 
 .mainMainText {
-    padding-top: 100px;
     color: var(--Dark-Color, #21243D);
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
     position: relative;
+
+    padding-top: 100px;
 }
 
 .subMainText {
@@ -33,8 +32,6 @@
     position: absolute;
     left: 300px;
     top: 40px;
-    /* top: 10px; */
-
     width: 100px;
     height: 100px;
 }

@@ -39,3 +39,46 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+.typed {
+    color: #333;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 38.4px */
+    letter-spacing: -0.64px;
+}
+
+.linkText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 47px;
+    flex-shrink: 0;
+    text-decoration: none;
+
+    border-radius: 2px;
+    background: var(--Primary, royalblue);
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+header {
+    padding: 0;
+}
+
+.container {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 30px;
+}
+
+.subHeaderText {
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
