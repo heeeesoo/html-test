@@ -76,9 +76,11 @@ nav {
     width: 40vw;
 
     border-radius: 2px;
-    background: var(--Primary, royalblue);
+    /* background: var(--Primary, royalblue); */
+    background: var(--Primary, #F8F2FF);
 
-    color: #FFF;
+    /* color: #FFF; */
+    color: grey;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;

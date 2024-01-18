@@ -24,7 +24,8 @@
 
 .sectionPCard {
     height: 500px;
-    background-color: rgba(189, 210, 255, 0.40);
+    /* background-color: rgba(189, 210, 255, 0.40); */
+    background-color: #F8F2FF;
     margin-bottom: 32px;
 
     display: flex;
