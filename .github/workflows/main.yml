@@ -23,3 +23,6 @@ jobs:
       - name: Upload to S3
         run: |
           aws s3 sync web s3://heesoo-resume-s3/
+
+      - name: Invalidate cloudfront
+        run: aws cloudfront create-invalidation --distribution-id E949QU1WFD63H --paths /* # Cloudfront ID로 변경
